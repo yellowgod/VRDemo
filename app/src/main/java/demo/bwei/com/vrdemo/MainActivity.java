@@ -3,11 +3,10 @@ package demo.bwei.com.vrdemo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
-import android.os.Handler;
-import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
+
 import com.google.vr.sdk.widgets.common.VrWidgetView;
 import com.google.vr.sdk.widgets.pano.VrPanoramaEventListener;
 import com.google.vr.sdk.widgets.pano.VrPanoramaView;
@@ -94,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onLoadSuccess() {
             super.onLoadSuccess();
-            Toast.makeText(MainActivity.this, "成功", Toast.LENGTH_SHORT).show();
+
         }
 
         @Override
